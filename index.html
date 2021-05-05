@@ -4,54 +4,58 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Храм святого преподобного Саввы Сторожевского</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css"/>
+    <script async src="./script.js"></script>
   </head>
   <body>
     <header class="header">
       <div class="wrapper">
-        <div class="header__content">
-          <h1 class="header__title">
+        <div class="header_content">
+          <h1 class="header_title">
             Храм святого преподобного Саввы Сторожевского
           </h1>
-          <p class="header__text">
+          <p class="header_text">
             Местная религиозная организация Московской епархии Русской
             Православной Церкви (Московский Патриархат)
           </p>
         </div>
         <nav class="menu">
-          <ul class="menu__desktop">
-            <li class="menu__item active"><a href="#">главная</a></li>
-            <li class="menu__item"><a href="#">прп. Савва сторожевский</a></li>
-            <li class="menu__item"><a href="#">жизнь прихода</a></li>
-            <li class="menu__item"><a href="#">фотоальбом</a></li>
-            <li class="menu__item"><a href="#">контакты</a></li>
-            <li class="menu__item"><a href="#">пожертвования</a></li>
+          <ul class="menu_header">
+            <li class="menu_item active"><a href="#">главная</a></li>
+            <li class="menu_item"><a href="#">прп. Савва сторожевский</a></li>
+            <li class="menu_item"><a href="#">жизнь прихода</a></li>
+            <li class="menu_item"><a href="#">фотоальбом</a></li>
+            <li class="menu_item"><a href="#">контакты</a></li>
+            <li class="menu_item"><a href="#">пожертвования</a></li>
           </ul>
         </nav>
       </div>
     </header>
-    <section class="main__section">
+    <section id="bg" class="main_section">
       <div class="wrapper">
-        <div class="main__block">
-          <div class="main__message">
-            <h2 class="main__title">Дорогие братья и сестры</h2>
-            <p class="main__text">
+        <div class="main_block">
+          <div class="main_message"   >
+            <h2 class="main_title">Дорогие братья и сестры</h2>
+            <p class="main_text_1 ">
               Приглашаем Вас каждое воскресенье в 13.00 на молебен о
               строительстве Храма преподобного Саввы Сторожевского. Молебен
               служится на месте строительства по адресу: пл. Викторио Кодовильи,
               вл. 1 напротив бывшего кинотеатра “Енисей”
             </p>
+            <p class="main_text_2" >
+              Приглашаем детей в возрасте от 5 лет для занятий в воскресной группе при храме преподобного Саввы Сторожевского. Занятия начнутся с октября 2016 года. Запись в группу осуществляется по воскресеньям с 13-14 часов.
+            </p>
           </div>
-          <div class="main__slide">
-            <a href="#" class="main__slider active__slider"
-              ><img src="./img/dot__title.png" alt="selection point"
-            /></a>
-            <a href="#" class="main__slider"
-              ><img src="./img/dot__title.png" alt="selection point"
-            /></a>
-            <a href="#" class="main__slider"
-              ><img src="./img/dot__title.png" alt="selection point"
-            /></a>
+          <div class="main_slide">
+            <a href="#" class="main_slider active_slider" onclick="buttonFirst()">
+              <img src="./img/dot_title.png" alt="selection point"/>
+            </a>
+            <a href="#" class="main_slider" onclick="buttonTwo()">
+              <img src="./img/dot_title.png" alt="selection point"/>
+            </a>
+            <a href="#" class="main_slider" onclick="buttonThree()">
+              <img src="./img/dot_title.png" alt="selection point"/>
+            </a>
           </div>
         </div>
       </div>
@@ -59,14 +63,14 @@
     <section class="news">
       <div class="wrapper">
         <article class="newses">
-          <div class="news__content">
-            <div class="subnews__content">
-              <img class="subnews__img" src="./img/news_img_1png.png" alt="news_img" />
+          <div class="news_content">
+            <div class="subnews_content">
+              <img class="subnews_img" src="./img/news_img_1png.png" alt="news_img" />
               <div class="date">
                 <p class="news_date">7 фев 2017</p>
               </div>
-              <h3 class="subnews__title">Освящение закладного камня</h3>
-              <p class="subnews__text">
+              <h3 class="subnews_title">Освящение закладного камня</h3>
+              <p class="subnews_text">
                 7 февраля 2016 года в 14.00 прихожане строящегося храма в честь
                 преподобного Саввы Сторожевского встречали владыку Пантелеимона,
                 епископа Орехово-Зуевского. Жители нашего района собрались на
@@ -76,44 +80,44 @@
                 подвижника и ученика преподобного Сергия Радонежского, станет
                 единственным в нашей столице.
               </p>
-              <div class="subnews__details">
-                <a href="#" class="btn__details">Подробнее</a>
-                <ul class="subnews__icons">
-                  <li class="subnews__item">
-                    <a href="#" class="subnews__item_active">
-                      <img src="./img/social_vk.png" alt="vk_logo">
+              <div class="subnews_details">
+                <a href="#" class="btn_details">Подробнее</a>
+                <ul class="subnews_icons">
+                  <li class="subnews_item">
+                    <a href="#" class="subnews_item_active">
+                      <img class="subnews_item_logo" src="./img/social_vk.png" alt="vk_logo">
                     </a>
                   </li>
-                  <li class="subnews__item">
-                    <a href="#" class="subnews__item">
-                      <img src="./img/social_ok.png" alt="ok_logo">
+                  <li class="subnews_item">
+                    <a href="#" class="subnews_item">
+                      <img class="subnews_item_logo" src="./img/social_ok.png" alt="ok_logo">
                     </a>
                   </li>
-                  <li class="subnews__item">
-                    <a href="#" class="subnews__item">
-                      <img src="./img/social_twit.png" alt="twitter_logo">
+                  <li class="subnews_item">
+                    <a href="#" class="subnews_item">
+                      <img class="subnews_item_logo" src="./img/social_twit.png" alt="twitter_logo">
                     </a>
                   </li>
-                  <li class="subnews__item">
-                    <a href="#" class="subnews__item">
-                      <img src="./img/social_fb.png" alt="facebook_logo">
+                  <li class="subnews_item">
+                    <a href="#" class="subnews_item">
+                      <img class="subnews_item_logo" src="./img/social_fb.png" alt="facebook_logo">
                     </a>
                   </li>
-                  <li class="subnews__item">
-                    <a href="#" class="subnews__item">
-                      <img src="./img/social_instagram.png" alt="instagram_logo">
+                  <li class="subnews_item">
+                    <a href="#" class="subnews_item">
+                      <img class="subnews_item_logo" src="./img/social_instagram.png" alt="instagram_logo">
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="subnews__content">
-              <img class="subnews__img" src="./img/news_img_2.png" alt="news_img" />
+            <div class="subnews_content">
+              <img class="subnews_img" src="./img/news_img_2.png" alt="news_img" />
               <div class="date">
                 <p class="news_date">11 фев 2017</p>
               </div>
-              <h3 class="subnews__title">Визит Ресина В.И.</h3>
-              <p class="subnews__text">
+              <h3 class="subnews_title">Визит Ресина В.И.</h3>
+              <p class="subnews_text">
                 2 февраля 2017 года строительную площадку храма преподобного
                 Саввы Сторожевского в Измайлово посетили член комитета Госдумы
                 по земельным отношениям и строительству, советник Святейшего
@@ -122,163 +126,163 @@
                 ходе визита были отмечены значительные успехи строительства и
                 обсуждены ближайшие планы продолжения работ.
               </p>
-              <div class="subnews__details">
-                <a href="#" class="btn__details">Подробнее</a>
-                <ul class="subnews__icons">
-                  <li class="subnews__item">
-                    <a href="#" class="subnews__item_active">
-                      <img src="./img/social_vk.png" alt="vk_logo">
+              <div class="subnews_details">
+                <a href="#" class="btn_details">Подробнее</a>
+                <ul class="subnews_icons">
+                  <li class="subnews_item">
+                    <a href="#" class="subnews_item_active">
+                      <img class="subnews_item_logo" src="./img/social_vk.png" alt="vk_logo">
                     </a>
                   </li>
-                  <li class="subnews__item">
-                    <a href="#" class="subnews__item">
-                      <img src="./img/social_ok.png" alt="ok_logo">
+                  <li class="subnews_item">
+                    <a href="#" class="subnews_item">
+                      <img class="subnews_item_logo" src="./img/social_ok.png" alt="ok_logo">
                     </a>
                   </li>
-                  <li class="subnews__item">
-                    <a href="#" class="subnews__item">
-                      <img src="./img/social_twit.png" alt="twitter_logo">
+                  <li class="subnews_item">
+                    <a href="#" class="subnews_item">
+                      <img class="subnews_item_logo" src="./img/social_twit.png" alt="twitter_logo">
                     </a>
                   </li>
-                  <li class="subnews__item">
-                    <a href="#" class="subnews__item">
-                      <img src="./img/social_fb.png" alt="facebook_logo">
+                  <li class="subnews_item">
+                    <a href="#" class="subnews_item">
+                      <img class="subnews_item_logo" src="./img/social_fb.png" alt="facebook_logo">
                     </a>
                   </li>
-                  <li class="subnews__item">
-                    <a href="#" class="subnews__item">
-                      <img src="./img/social_instagram.png" alt="instagram_logo">
+                  <li class="subnews_item">
+                    <a href="#" class="subnews_item">
+                      <img class="subnews_item_logo" src="./img/social_instagram.png" alt="instagram_logo">
                     </a>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="news__content news__content_grid">
-            <div class="photo__content">
+          <div class="news_content news_content_grid">
+            <div class="photo_content">
               <img
-                class="photo__img"
+                class="photo_img"
                 src="./img/photo_report_img_1.png"
                 alt="photo_report"
               />
-              <h4 class="photo__title">Молебен 19.02.2017</h4>
-              <p class="photo__text">
+              <h4 class="photo_title">Молебен 19.02.2017</h4>
+              <p class="photo_text">
                 19 февраля в этом году совпадает с неделей о Страшном Суде...
               </p>
-              <div class="photo__more">
-                <a class="photo__arrow" href="#"
-                  ><img src="./img/arrow.png" alt="arrow_button"
-                /></a>
-                <a class="photo__link" href="#">Подробнее</a>
+              <div class="photo_more">
+                <a class="photo_arrow" href="#">
+                  <img src="./img/arrow.png" alt="arrow_button"/>
+                </a>
+                <a class="photo_link" href="#">Подробнее</a>
               </div>
             </div>
-            <div class="photo__content">
-              <img class="photo__img" src="./img/photo_report_img_2.png" alt="photo_report"/>
-              <h4 class="photo__title">Молебен 12.02.2017</h4>
-              <p class="photo__text">
+            <div class="photo_content">
+              <img class="photo_img" src="./img/photo_report_img_2.png" alt="photo_report"/>
+              <h4 class="photo_title">Молебен 12.02.2017</h4>
+              <p class="photo_text">
                 12 февраля в этом году совпадает с неделей о блудном сыне...
               </p>
-              <div class="photo__more">
-                <a class="photo__arrow" href="#"
-                  ><img src="./img/arrow.png" alt="arrow_button"
-                /></a>
-                <a class="photo__link" href="#">Подробнее</a>
+              <div class="photo_more">
+                <a class="photo_arrow" href="#">
+                  <img src="./img/arrow.png" alt="arrow_button"/>
+                </a>
+                <a class="photo_link" href="#">Подробнее</a>
               </div>
             </div>
-            <div class="photo__content">
-              <img class="photo__img" src="./img/photo_report_img_3.png" alt="photo_report"/>
-              <h4 class="photo__title">Молебен 29.01.2017</h4>
-              <p class="photo__text">
+            <div class="photo_content">
+              <img class="photo_img" src="./img/photo_report_img_3.png" alt="photo_report"/>
+              <h4 class="photo_title">Молебен 29.01.2017</h4>
+              <p class="photo_text">
                 19 февраля в этом году совпадает с неделей о Страшном Суде...
               </p>
-              <div class="photo__more">
-                <a class="photo__arrow" href="#"
-                  ><img src="./img/arrow.png" alt="arrow_button"
-                /></a>
-                <a class="photo__link" href="#">Подробнее</a>
+              <div class="photo_more">
+                <a class="photo_arrow" href="#">
+                  <img src="./img/arrow.png" alt="arrow_button"/>
+                </a>
+                <a class="photo_link" href="#">Подробнее</a>
               </div>
             </div>
-            <div class="photo__content">
-              <img class="photo__img" src="./img/photo_report_img_4.png" alt="photo_report"/>
-              <h4 class="photo__title">Молебен 22.01.2017</h4>
-              <p class="photo__text">
+            <div class="photo_content">
+              <img class="photo_img" src="./img/photo_report_img_4.png" alt="photo_report"/>
+              <h4 class="photo_title">Молебен 22.01.2017</h4>
+              <p class="photo_text">
                 2 января прихожане нашего храма собрались на традиционный молебен...
               </p>
-              <div class="photo__more">
-                <a class="photo__arrow" href="#"
-                  ><img src="./img/arrow.png" alt="arrow_button"
-                /></a>
-                <a class="photo__link" href="#">Подробнее</a>
+              <div class="photo_more">
+                <a class="photo_arrow" href="#">
+                  <img src="./img/arrow.png" alt="arrow_button"/>
+                </a>
+                <a class="photo_link" href="#">Подробнее</a>
               </div>
             </div>
-            <div class="photo__content">
-              <img class="photo__img" src="./img/photo_report_img_1.png" alt="photo_report"/>
-              <h4 class="photo__title">Молебен 19.02.2017</h4>
-              <p class="photo__text">
+            <div class="photo_content">
+              <img class="photo_img" src="./img/photo_report_img_1.png" alt="photo_report"/>
+              <h4 class="photo_title">Молебен 19.02.2017</h4>
+              <p class="photo_text">
                 19 февраля в этом году совпадает с неделей о Страшном Суде. В этот день...
               </p>
-              <div class="photo__more">
-                <a class="photo__arrow" href="#"
-                  ><img src="./img/arrow.png" alt="arrow_button"
-                /></a>
-                <a class="photo__link" href="#">Подробнее</a>
+              <div class="photo_more">
+                <a class="photo_arrow" href="#">
+                  <img src="./img/arrow.png" alt="arrow_button"/>
+                </a>
+                <a class="photo_link" href="#">Подробнее</a>
               </div>
             </div>
-            <div class="photo__content">
-              <img class="photo__img" src="./img/photo_report_img_1.png" alt="photo_report"/>
-              <h4 class="photo__title">Молебен 19.02.2017</h4>
-              <p class="photo__text">
+            <div class="photo_content">
+              <img class="photo_img" src="./img/photo_report_img_1.png" alt="photo_report"/>
+              <h4 class="photo_title">Молебен 19.02.2017</h4>
+              <p class="photo_text">
                 19 февраля в этом году совпадает с неделей о Страшном Суде. В этот день...
               </p>
-              <div class="photo__more">
-                <a class="photo__arrow" href="#"
-                  ><img src="./img/arrow.png" alt="arrow_button"
-                /></a>
-                <a class="photo__link" href="#">Подробнее</a>
+              <div class="photo_more">
+                <a class="photo_arrow" href="#">
+                  <img src="./img/arrow.png" alt="arrow_button"/>
+                </a>
+                <a class="photo_link" href="#">Подробнее</a>
               </div>
             </div>
-            <div class="photo__content">
-              <img class="photo__img" src="./img/photo_report_img_1.png" alt="photo_report"/>
-              <h4 class="photo__title">Молебен 19.02.2017</h4>
-              <p class="photo__text">
+            <div class="photo_content">
+              <img class="photo_img" src="./img/photo_report_img_1.png" alt="photo_report"/>
+              <h4 class="photo_title">Молебен 19.02.2017</h4>
+              <p class="photo_text">
                 19 февраля в этом году совпадает с неделей о Страшном Суде. В этот день...
               </p>
-              <div class="photo__more">
-                <a class="photo__arrow" href="#"
-                  ><img src="./img/arrow.png" alt="arrow_button"
-                /></a>
-                <a class="photo__link" href="#">Подробнее</a>
+              <div class="photo_more">
+                <a class="photo_arrow" href="#">
+                  <img src="./img/arrow.png" alt="arrow_button"/>
+                </a>
+                <a class="photo_link" href="#">Подробнее</a>
               </div>
             </div>
-            <div class="photo__content">
-              <img class="photo__img" src="./img/photo_report_img_1.png" alt="photo_report"/>
-              <h4 class="photo__title">Молебен 19.02.2017</h4>
-              <p class="photo__text">
+            <div class="photo_content">
+              <img class="photo_img" src="./img/photo_report_img_1.png" alt="photo_report"/>
+              <h4 class="photo_title">Молебен 19.02.2017</h4>
+              <p class="photo_text">
                 19 февраля в этом году совпадает с неделей о Страшном Суде. В этот день...
               </p>
-              <div class="photo__more">
-                <a class="photo__arrow" href="#"
-                  ><img src="./img/arrow.png" alt="arrow_button"
-                /></a>
-                <a class="photo__link" href="#">Подробнее</a>
+              <div class="photo_more">
+                <a class="photo_arrow" href="#">
+                  <img src="./img/arrow.png" alt="arrow_button"/>
+                </a>
+                <a class="photo_link" href="#">Подробнее</a>
               </div>
             </div>
           </div>
         </article>
         <div class="pages">
-          <a class="btn__pages" href="#">Ранее <img class="btn__pages__arrow" src="./img/arrow.png" alt="arrow"></a>
-          <ul class="pages__list">
-            <li class="pages__item item__icon">
-              <a href="#"><i class="icon-left-open-big"></i></a>
+          <a class="btn_pages" href="#">Ранее <img class="btn_pages_arrow" src="./img/arrow.png" alt="arrow"></a>
+          <ul class="pages_list">
+            <li class="pages_item pages_arrow">
+              <a href="#"><img src="./img/arrow_back.png" alt="arrow_back"></i></a>
             </li>
-            <li class="pages__item item__page item__active"><a href="#">1</a></li>
-            <li class="pages__item item__page"><a href="#">2</a></li>
-            <li class="pages__item item__page"><a href="#">3</a></li>
-            <li class="pages__item item__page"><a href="#">4</a></li>
-            <li class="pages__item">...</li>
-            <li class="pages__item item__page"><a href="#">12</a></li>
-            <li class="pages__item item__icon">
-              <a href="#"><i class="icon-right-open-big"></i></a>
+            <li class="pages_item item_page item_active"><a href="#">1</a></li>
+            <li class="pages_item item_page"><a href="#">2</a></li>
+            <li class="pages_item item_page"><a href="#">3</a></li>
+            <li class="pages_item item_page"><a href="#">4</a></li>
+            <li class="pages_item">...</li>
+            <li class="pages_item item_page"><a href="#">12</a></li>
+            <li class="pages_item pages_arrow">
+              <a href="#"><img src="./img/arrow_next.png" alt="arrow_next"></i></a>
             </li>
           </ul>
         </div>
@@ -286,82 +290,83 @@
     </section>
     <section class="building">
       <div class="wrapper">
-        <div class="building__progress">
-          <p class="building__text">Ход строительства</p>
-          <a class="btn__pages" href="#">Подробнее</a>
+        <div class="building_progress">
+          <p class="building_text">Ход строительства</p>
+          <a class="btn_pages" href="#">Подробнее</a>
         </div>
       </div>
     </section>
     <section class="announcement">
       <div class="wrapper">
-        <div class="announcement__content">
-          <div class="announcement__facebook">
+        <div class="announcement_content">
+          <div class="announcement_facebook">
             <p>Facebook</p>
             <img src="./img/facebook.png" alt="facebook_banner" />
           </div>
-          <div class="announcement__banner">
+          <div class="announcement_banner">
           </div>
         </div>
       </div>
     </section>
     <footer class="footer">
       <div class="wrapper">
-        <div class="footer__content">
-          <div class="footer__message">
-            <h3 class="footer__title">
+        <div class="footer_content">
+          <div class="footer_message">
+            <h3 class="footer_title">
               Храм святого преподобного Саввы Сторожевского
             </h3>
-            <p class="footer__text">
+            <p class="footer_text">
               Местная религиозная организация Московской епархии Русской
               Православной Церкви (Московский Патриархат)
             </p>
           </div>
-          <nav class="footer__menu">
-            <ul class="footer__list">
-              <li class="footer__item"><a href="#">главная</a></li>
-              <li class="footer__item">
+          <nav class="footer_menu">
+            <ul class="footer_list">
+              <li class="footer_item"><a href="#">главная</a></li>
+              <li class="footer_item">
                 <a href="#">прп. Савва сторожевский</a>
               </li>
-              <li class="footer__item"><a href="#">жизнь прихода</a></li>
-              <li class="footer__item"><a href="#">фотоальбом</a></li>
-              <li class="footer__item"><a href="#">контакты</a></li>
-              <li class="footer__item"><a href="#">пожертвования</a></li>
+              <li class="footer_item"><a href="#">жизнь прихода</a></li>
+              <li class="footer_item"><a href="#">фотоальбом</a></li>
+              <li class="footer_item"><a href="#">контакты</a></li>
+              <li class="footer_item"><a href="#">пожертвования</a></li>
             </ul>
           </nav>
 
 
-          <div class="footer__socials">
-            <ul class="footer__socials_list">
-              <li class="footer__socials_item">
-                <a href="#" class="subnews__item_active">
-                  <img src="./img/social_vk.png" alt="vk_logo">
+          <div class="footer_socials">
+            <ul class="footer_socials_list">
+              <li class="footer_socials_item">
+                <a href="#" class="subnews_item">
+                  <img class="subnews_item_logo" src="./img/social_vk.png" alt="vk_logo">
                 </a>
               </li>
-              <li class="subnews__item">
-                <a href="#" class="subnews__item">
-                  <img src="./img/social_ok.png" alt="ok_logo">
+              <li class="subnews_item">
+                <a href="#" class="subnews_item">
+                  <img class="subnews_item_logo" src="./img/social_ok.png" alt="ok_logo">
                 </a>
               </li>
-              <li class="subnews__item">
-                <a href="#" class="subnews__item">
-                  <img src="./img/social_twit.png" alt="twitter_logo">
+              <li class="subnews_item">
+                <a href="#" class="subnews_item">
+                  <img class="subnews_item_logo" src="./img/social_twit.png" alt="twitter_logo">
                 </a>
               </li>
-              <li class="subnews__item">
-                <a href="#" class="subnews__item">
-                  <img src="./img/social_fb.png" alt="facebook_logo">
+              <li class="subnews_item">
+                <a href="#" class="subnews_item">
+                  <img class="subnews_item_logo" src="./img/social_fb.png" alt="facebook_logo">
                 </a>
               </li>
-              <li class="subnews__item">
-                <a href="#" class="subnews__item">
-                  <img src="./img/social_instagram.png" alt="instagram_logo">
+              <li class="subnews_item">
+                <a href="#" class="subnews_item">
+                  <img class="subnews_item_logo" src="./img/social_instagram.png" alt="instagram_logo">
                 </a>
               </li>
             </ul>
+            <img class="footer_img" src="./img/statistic.png" alt="statistic" />
           </div>
         </div>
-        <div class="footer__author">
-          <p class="footer__author_text">
+        <div class="footer_author">
+          <p class="footer_author_text">
             &copy; 2017 Храм святого преподобного Саввы Сторожевского
           </p>
         </div>
