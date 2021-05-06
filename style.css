@@ -301,7 +301,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 22px;
+  padding-top: 25px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -318,7 +318,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   text-transform: uppercase;
   letter-spacing: 0.005em;
   color: #48974c;
-  padding: 23px 40px;
+  padding: 25px 40px;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
@@ -371,8 +371,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   font-style: italic;
   letter-spacing: 0.005em;
   color: #262626;
-  padding-top: 17px;
-  padding-bottom: 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 .photo_text {
   font-family: 'PT Sans';
@@ -381,7 +381,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   font-weight: 400;
   letter-spacing: 0.005em;
   color: #737373;
-  width: 226px;
+  width: 227px;
 }
 .photo_more {
   display: -webkit-box;
@@ -392,7 +392,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-top: 22px;
+  padding-top: 15px;
 }
 .photo_arrow {
   display: block;
@@ -713,6 +713,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
   }
   .pages_list {
     margin: 0;
+    margin-left: 17%;
   }
   .banner_content {
     -webkit-box-orient: vertical;
